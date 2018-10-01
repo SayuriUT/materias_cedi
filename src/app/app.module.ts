@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
+import { PappsPage } from '../pages/papps/papps';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     HistoriaPage,
-    DibujoPage
+    DibujoPage,
+    PappsPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
     MyApp,
     HomePage,
     HistoriaPage,
-    DibujoPage
+    DibujoPage,
+    PappsPage
   ],
   providers: [
     StatusBar,
