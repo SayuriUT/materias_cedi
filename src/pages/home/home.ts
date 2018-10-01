@@ -25,6 +25,6 @@ export class HomePage {
   }
 
   clickPapps(){
-    this.navCtrl.push(this.dibujo);
+    this.navCtrl.push(this.papps);
   }
 }
