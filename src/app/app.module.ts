@@ -11,6 +11,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PappsPage } from '../pages/papps/papps';
 import { ComPage } from '../pages/com/com';
 import { CienciasPage } from '../pages/ciencias/ciencias';
+import { RoboticaPage } from '../pages/robotica/robotica';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     DibujoPage,
     PappsPage,
     ComPage,
-    CienciasPage
+    CienciasPage,
+    RoboticaPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { CienciasPage } from '../pages/ciencias/ciencias';
     DibujoPage,
     PappsPage,
     ComPage,
-    CienciasPage
+    CienciasPage,
+    RoboticaPage
   ],
   providers: [
     StatusBar,
