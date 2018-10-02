@@ -12,6 +12,7 @@ import { PappsPage } from '../pages/papps/papps';
 import { ComPage } from '../pages/com/com';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { RoboticaPage } from '../pages/robotica/robotica';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     PappsPage,
     ComPage,
     CienciasPage,
-    RoboticaPage
+    RoboticaPage,
+    MiPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { RoboticaPage } from '../pages/robotica/robotica';
     PappsPage,
     ComPage,
     CienciasPage,
-    RoboticaPage
+    RoboticaPage,
+    MiPage
   ],
   providers: [
     StatusBar,
