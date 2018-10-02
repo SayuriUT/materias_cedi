@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { PappsPage } from '../pages/papps/papps';
 import { ComPage } from '../pages/com/com';
+import { CienciasPage } from '../pages/ciencias/ciencias';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ComPage } from '../pages/com/com';
     HistoriaPage,
     DibujoPage,
     PappsPage,
-    ComPage
+    ComPage,
+    CienciasPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { ComPage } from '../pages/com/com';
     HistoriaPage,
     DibujoPage,
     PappsPage,
-    ComPage
+    ComPage,
+    CienciasPage
   ],
   providers: [
     StatusBar,
